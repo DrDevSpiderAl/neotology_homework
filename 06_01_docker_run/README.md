@@ -8,6 +8,11 @@ https://hub.docker.com/repository/docker/salexeis789/custom_nginx/general
 <img width="743" height="49" alt="изображение" src="https://github.com/user-attachments/assets/fef98e5e-7f48-487e-9b9b-0e856df4f622" />
 После нажатия Ctrl+C завершается ключевой процесс в контейнере.
 
+<img width="1815" height="663" alt="изображение" src="https://github.com/user-attachments/assets/822ac9c0-2988-4841-be2f-ffd7b8ce2bf0" />
+<img width="1192" height="967" alt="изображение" src="https://github.com/user-attachments/assets/03651059-e64f-4803-9a07-a1a0ea0a3b4a" />
+<img width="1698" height="909" alt="изображение" src="https://github.com/user-attachments/assets/15e12642-1f1b-4b86-adf1-e7e043d3754f" />
+Nginx начал слушать новый порт 81, а контейнер продолжил транслировать старый порт.
+
 ## Task 4
 
 ## Task 5
