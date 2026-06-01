@@ -1,4 +1,4 @@
-## Task 1
+                                                      ## Task 1
 https://hub.docker.com/repository/docker/salexeis789/custom_nginx/general
 ## Task 2
 <img width="1571" height="484" alt="изображение" src="https://github.com/user-attachments/assets/5aac781e-a28c-4fcb-9a0c-a9cdab905406" />
@@ -13,6 +13,8 @@ https://hub.docker.com/repository/docker/salexeis789/custom_nginx/general
 <img width="1698" height="909" alt="изображение" src="https://github.com/user-attachments/assets/15e12642-1f1b-4b86-adf1-e7e043d3754f" />
 Nginx начал слушать новый порт 81, а контейнер продолжил транслировать старый порт.
 
+<img width="1337" height="347" alt="изображение" src="https://github.com/user-attachments/assets/a26920c4-f6b1-4422-a3f3-50efcab3ddc2" />
+Собираем из запущенного контейнера новый образ, останавливаем текущий и запускаем из нового образа с новыми проброшенными портами
 ## Task 4
 
 ## Task 5
