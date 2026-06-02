@@ -26,3 +26,8 @@ Nginx начал слушать новый порт 81, а контейнер п
 <img width="924" height="662" alt="изображение" src="https://github.com/user-attachments/assets/78b1ee20-40eb-4c30-b243-101be3c49b4c" />
 Согласно документации Docker при наличии двух неймингов берется каноничный compose.yaml
 <img width="924" height="576" alt="изображение" src="https://github.com/user-attachments/assets/aeed1d16-99f0-4af6-b416-d7a6b9e017c6" />
+<img width="924" height="576" alt="изображение" src="https://github.com/user-attachments/assets/8fc1d283-cc33-4382-809c-3cd6a1842032" />
+
+<img width="761" height="865" alt="изображение" src="https://github.com/user-attachments/assets/9b3ebd69-8759-4210-96ab-10728c673e3d" />
+<img width="761" height="186" alt="изображение" src="https://github.com/user-attachments/assets/1af0b396-5c2f-4389-838d-c817ac8b7324" />
+
