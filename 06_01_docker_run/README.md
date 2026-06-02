@@ -18,6 +18,7 @@ Nginx начал слушать новый порт 81, а контейнер п
 
 ## Task 4
 <img width="1429" height="153" alt="изображение" src="https://github.com/user-attachments/assets/e20ecae6-302f-4e8f-9e8f-b416d2deb1ed" />
+<img width="995" height="750" alt="изображение" src="https://github.com/user-attachments/assets/0c84c526-3637-4a21-bb17-9ad93c0b5deb" />
 <img width="1449" height="922" alt="изображение" src="https://github.com/user-attachments/assets/5f4b00a1-52fe-4b06-9be2-52ac73989cbb" />
 
 
