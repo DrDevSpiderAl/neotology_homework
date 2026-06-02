@@ -15,6 +15,9 @@ Nginx начал слушать новый порт 81, а контейнер п
 
 <img width="1337" height="347" alt="изображение" src="https://github.com/user-attachments/assets/a26920c4-f6b1-4422-a3f3-50efcab3ddc2" />
 Собираем из запущенного контейнера новый образ, останавливаем текущий и запускаем из нового образа с новыми проброшенными портами
+
 ## Task 4
+<img width="1449" height="922" alt="изображение" src="https://github.com/user-attachments/assets/5f4b00a1-52fe-4b06-9be2-52ac73989cbb" />
+
 
 ## Task 5
