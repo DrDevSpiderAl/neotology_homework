@@ -31,6 +31,7 @@ Nginx начал слушать новый порт 81, а контейнер п
 
 <img width="761" height="865" alt="изображение" src="https://github.com/user-attachments/assets/9b3ebd69-8759-4210-96ab-10728c673e3d" />
 <img width="761" height="186" alt="изображение" src="https://github.com/user-attachments/assets/1af0b396-5c2f-4389-838d-c817ac8b7324" />
+
 Вышло предупреждение об осиротевшем контейнере
 <img width="870" height="820" alt="изображение" src="https://github.com/user-attachments/assets/74d9a3ab-1114-46ae-b9b6-6e82ec8ef47e" />
 
