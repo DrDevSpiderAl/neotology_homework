@@ -18,10 +18,6 @@
 Тест сборки 2.1 
 <img width="1574" height="999" alt="изображение" src="https://github.com/user-attachments/assets/22c5eaff-6f01-4d68-bf6a-aec93edef66c" />
 
-### ВНИМАНИЕ!
-!!! В процессе последующего выполнения ДЗ НЕ изменяйте содержимое файлов в fork-репозитории! Ваша задача ДОБАВИТЬ 5 файлов: ```Dockerfile.python```, ```compose.yaml```, ```.gitignore```, ```.dockerignore```,```bash-скрипт```. Если вам понадобилось внести иные изменения в проект - вы что-то делаете неверно!
----
-
 ## Задача 3
 Создан файл ```compose.yaml``` и описаны сервисы:`web`, `db`.  
 <img width="541" height="717" alt="изображение" src="https://github.com/user-attachments/assets/26df1eaa-0954-403c-85f7-cdad9e035ba5" />
@@ -33,20 +29,21 @@
 <img width="850" height="849" alt="изображение" src="https://github.com/user-attachments/assets/2357191f-24f1-4268-9821-c2200e191f75" />
 
 ## Задача 4
-1. Запустите в Yandex Cloud ВМ (вам хватит 2 Гб Ram).
-2. Подключитесь к Вм по ssh и установите docker.
-3. bash-скрипт, который скачает мой fork-репозиторий в каталог /opt и запустит проект целиком
+bash-скрипт, который скачает мой fork-репозиторий в каталог /opt и запустит проект целиком
 <img width="601" height="366" alt="изображение" src="https://github.com/user-attachments/assets/beab94ec-edbd-43e9-9a2e-4ffbf38644a5" />
+Запуск скрипта на ВМ Яндекс  
+<img width="1860" height="730" alt="изображение" src="https://github.com/user-attachments/assets/75036fd5-18d4-4f7d-abbd-82eb4fc7b31a" />  
+<img width="1860" height="730" alt="изображение" src="https://github.com/user-attachments/assets/11b76470-c154-49d3-a30e-062fe9b630b0" />  
+<img width="1860" height="730" alt="изображение" src="https://github.com/user-attachments/assets/458fb1bd-0bff-48c4-8826-f01cb30a2ca9" />
+<img width="1860" height="586" alt="изображение" src="https://github.com/user-attachments/assets/6a1ea331-eb1c-4bbd-9914-00ed3e0c0722" />
 
-5. Зайдите на сайт проверки http подключений, например(или аналогичный): ```https://check-host.net/check-http``` и запустите проверку вашего сервиса ```http://<внешний_IP-адрес_вашей_ВМ>:8090```. Таким образом трафик будет направлен в ingress-proxy. Трафик должен пройти через цепочки: Пользователь → Internet → Nginx → HAProxy → FastAPI(запись в БД) → HAProxy → Nginx → Internet → Пользователь
-6. (Необязательная часть) Дополнительно настройте remote ssh context к вашему серверу. Отобразите список контекстов и результат удаленного выполнения ```docker ps -a```
-7. Повторите SQL-запрос на сервере и приложите скриншот и ссылку на fork.
+Проверка http подключений с `https://check-host.net/check-http`  
+<img width="850" height="959" alt="изображение" src="https://github.com/user-attachments/assets/69dd5733-eab1-4dbf-91c5-46d9f357f910" />
 
-## Задача 5 (*)
-1. Напишите и задеплойте на вашу облачную ВМ bash скрипт, который произведет резервное копирование БД mysql в директорию "/opt/backup" с помощью запуска в сети "backend" контейнера из образа ```schnitzler/mysqldump``` при помощи ```docker run ...``` команды. Подсказка: "документация образа."
-2. Протестируйте ручной запуск
-3. Настройте выполнение скрипта раз в 1 минуту через cron, crontab или systemctl timer. Придумайте способ не светить логин/пароль в git!!
-4. Предоставьте скрипт, cron-task и скриншот с несколькими резервными копиями в "/opt/backup"
+Скриншоты SQL-запроса на сервере ВМ Яндекса  
+<img width="1687" height="759" alt="изображение" src="https://github.com/user-attachments/assets/e4ebdcde-f245-4769-95e3-4f245eedac05" />
+<img width="1781" height="759" alt="изображение" src="https://github.com/user-attachments/assets/098fe318-7038-491d-a6ed-99c9fc506b8a" />
+Ссылка на [fork репозитарий](https://github.com/DrDevSpiderAl/shvirtd-example-python/)  
 
 ## Задача 6
 Скачайте docker образ ```hashicorp/terraform:latest``` и скопируйте бинарный файл ```/bin/terraform``` на свою локальную машину, используя dive и docker save.
