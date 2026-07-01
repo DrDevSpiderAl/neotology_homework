@@ -6,28 +6,18 @@
 ---
 
 ## Задача 1
-1. Сделайте в своем GitHub пространстве fork [репозитория](https://github.com/netology-code/shvirtd-example-python).
+Сделан fork в своем GitHub пространстве (https://github.com/DrDevSpiderAl/shvirtd-example-python/)
 
-2. Создайте файл ```Dockerfile.python``` на основе существующего `Dockerfile`:
-   - Используйте базовый образ ```python:3.12-slim```
-   - Обязательно используйте конструкцию ```COPY . .``` в Dockerfile
-   - Создайте `.dockerignore` файл для исключения ненужных файлов
-   - Используйте ```CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "5000"]``` для запуска
-   - Протестируйте корректность сборки
-2.1 Используйте multistage сборку вместо single stage.
-3. (Необязательная часть, *) Изучите инструкцию в проекте и запустите web-приложение без использования docker, с помощью venv. (Mysql БД можно запустить в docker run).
-4. (Необязательная часть, *) Изучите код приложения и добавьте управление названием таблицы через ENV переменную.
----
+Создан файл .dockerignore
+<img width="177" height="170" alt="изображение" src="https://github.com/user-attachments/assets/2bae57e0-ad7c-4207-85e9-d0ba65b9777d" />
+
+Создан Dockerfile.python с multistage сборкой <img width="583" height="290" alt="изображение" src="https://github.com/user-attachments/assets/174729a8-b80d-4b3e-a3f4-6fba9f43c757" />
+ 
+Тест сборки 2.1 <img width="1574" height="999" alt="изображение" src="https://github.com/user-attachments/assets/22c5eaff-6f01-4d68-bf6a-aec93edef66c" />
+
 ### ВНИМАНИЕ!
 !!! В процессе последующего выполнения ДЗ НЕ изменяйте содержимое файлов в fork-репозитории! Ваша задача ДОБАВИТЬ 5 файлов: ```Dockerfile.python```, ```compose.yaml```, ```.gitignore```, ```.dockerignore```,```bash-скрипт```. Если вам понадобилось внести иные изменения в проект - вы что-то делаете неверно!
 ---
-
-## Задача 2 (*)
-1. Создайте в yandex cloud container registry с именем "test" с помощью "yc tool" . [Инструкция](https://cloud.yandex.ru/ru/docs/container-registry/quickstart/?from=int-console-help)
-2. Настройте аутентификацию вашего локального docker в yandex container registry.
-3. Соберите и залейте в него образ с python приложением из задания №1.
-4. Просканируйте образ на уязвимости.
-5. В качестве ответа приложите отчет сканирования.
 
 ## Задача 3
 1. Изучите файл "proxy.yaml"
