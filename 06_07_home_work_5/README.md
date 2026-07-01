@@ -8,11 +8,11 @@
 ## Задача 1
 Сделан fork в своем GitHub пространстве (https://github.com/DrDevSpiderAl/shvirtd-example-python/)
 
-Создан файл .dockerignore
+Создан файл .dockerignore  
 
 <img width="177" height="170" alt="изображение" src="https://github.com/user-attachments/assets/2bae57e0-ad7c-4207-85e9-d0ba65b9777d" />
 
-Создан Dockerfile.python с multistage сборкой 
+Создан Dockerfile.python с multistage сборкой   
 <img width="583" height="290" alt="изображение" src="https://github.com/user-attachments/assets/174729a8-b80d-4b3e-a3f4-6fba9f43c757" />
  
 Тест сборки 2.1 
