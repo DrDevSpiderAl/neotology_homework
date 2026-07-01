@@ -18,6 +18,7 @@
 Тест сборки 2.1 
 <img width="1574" height="999" alt="изображение" src="https://github.com/user-attachments/assets/22c5eaff-6f01-4d68-bf6a-aec93edef66c" />
 
+---  
 ## Задача 3
 Создан файл ```compose.yaml``` и описаны сервисы:`web`, `db`.  
 <img width="541" height="717" alt="изображение" src="https://github.com/user-attachments/assets/26df1eaa-0954-403c-85f7-cdad9e035ba5" />
@@ -28,6 +29,7 @@
 Подключился к контейнеру БД mysql и ввел запросы  
 <img width="850" height="849" alt="изображение" src="https://github.com/user-attachments/assets/2357191f-24f1-4268-9821-c2200e191f75" />
 
+---  
 ## Задача 4
 bash-скрипт, который скачает мой fork-репозиторий в каталог /opt и запустит проект целиком
 <img width="601" height="366" alt="изображение" src="https://github.com/user-attachments/assets/beab94ec-edbd-43e9-9a2e-4ffbf38644a5" />
@@ -44,11 +46,3 @@ bash-скрипт, который скачает мой fork-репозитор�
 <img width="1687" height="759" alt="изображение" src="https://github.com/user-attachments/assets/e4ebdcde-f245-4769-95e3-4f245eedac05" />
 <img width="1781" height="759" alt="изображение" src="https://github.com/user-attachments/assets/098fe318-7038-491d-a6ed-99c9fc506b8a" />
 Ссылка на [fork репозитарий](https://github.com/DrDevSpiderAl/shvirtd-example-python/)  
-
-## Задача 6
-Скачайте docker образ ```hashicorp/terraform:latest``` и скопируйте бинарный файл ```/bin/terraform``` на свою локальную машину, используя dive и docker save.
-Предоставьте скриншоты  действий .
-
-## Задача 6.1
-Добейтесь аналогичного результата, используя docker cp.  
-Предоставьте скриншоты  действий .
