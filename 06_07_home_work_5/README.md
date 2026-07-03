@@ -46,3 +46,20 @@ bash-скрипт, который скачает мой fork-репозитор�
 <img width="1687" height="759" alt="изображение" src="https://github.com/user-attachments/assets/e4ebdcde-f245-4769-95e3-4f245eedac05" />
 <img width="1781" height="759" alt="изображение" src="https://github.com/user-attachments/assets/098fe318-7038-491d-a6ed-99c9fc506b8a" />
 Ссылка на [fork репозитарий](https://github.com/DrDevSpiderAl/shvirtd-example-python/)  
+
+
+## Задача 6  
+Скачал docker образ hashicorp/terraform:latest и установил dive  
+<img width="1863" height="438" alt="изображение" src="https://github.com/user-attachments/assets/465cd730-c839-4c35-b720-c0f6207bb156" />
+<img width="1863" height="878" alt="изображение" src="https://github.com/user-attachments/assets/7109b2ec-735b-4947-a4f2-04d7d7681e99" />
+
+С помощью dive проанализировал образ и нашел /bin/terraform/  
+<img width="1863" height="1041" alt="изображение" src="https://github.com/user-attachments/assets/68012061-79f3-40a8-ba2e-c531b4d356d2" />
+
+Используя Docker save скопировал на свою виртуальную машину /bin/terraform
+<img width="1863" height="923" alt="изображение" src="https://github.com/user-attachments/assets/25e09fe7-02d5-47fe-9c45-ad9b49f8781a" />
+<img width="1863" height="931" alt="изображение" src="https://github.com/user-attachments/assets/9f15e0f8-f53d-4202-a25f-c7588394a796" />
+<img width="1863" height="639" alt="изображение" src="https://github.com/user-attachments/assets/d7f46986-88af-449c-babc-fd5f0b215ced" />
+
+
+
