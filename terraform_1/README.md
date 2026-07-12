@@ -32,7 +32,8 @@
 3. После выполнения код проекта в terraform.tfstate был создан рандомный ключ **"result": "lSAbkf69SaQk2ltu"**
 
 4. После выполнения команды ```terraform validate``` возникают ошибки Missing name for resource и Invalid resource name. Отстутсвовало указание имени ресурса, недопустипое значение имени (начинается с цифры), и в переменной name не верное наименование **random_string_FAKE.resut** Исправленный файл:
-<img width="684" height="703" alt="изображение" src="https://github.com/user-attachments/assets/ca3b58ea-6cd8-4706-a87d-5d228a92f9ae" />
+<img width="691" height="708" alt="изображение" src="https://github.com/user-attachments/assets/a6b861ed-f741-49db-b810-3d0a35902e43" />
+
 
  
 5. <img width="1390" height="1036" alt="изображение" src="https://github.com/user-attachments/assets/e0977365-1d2d-4f9e-9084-e23abdb0a7c8" />  
