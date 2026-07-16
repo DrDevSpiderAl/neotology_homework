@@ -33,7 +33,7 @@
 <img width="419" height="39" alt="изображение" src="https://github.com/user-attachments/assets/fe9a568d-4f24-4a86-8ecc-54a5d4555e49" />  
 
 - ответы на вопросы.  
- **Синтаксические ошибки**: В resource "yandex_compute_instance" "platform" допущена ошибка в аргументе  platform_id = "standart-v4" необходимо указывать standard и указана несуществующая версия платформы, заменил на   platform_id = "standard-v3" которая поддерживает от 2 ядер, как следствие cores = 2 и core_fraction = 20.
+**Синтаксические ошибки**: В resource "yandex_compute_instance" "platform" допущена ошибка в аргументе  platform_id = "standart-v4" необходимо указывать standard и указана несуществующая версия платформы, заменил на   platform_id = "standard-v3" которая поддерживает от 2 ядер, как следствие cores = 2 и core_fraction = 20.
 В metadata было не верное имя переменной для SSH-ключа vms_ssh_root_key не соответствовало названию созданного файла публичного ключа созданного по ТЗ (vms_ssh_public_root_key).  
 
 **Оба параметра помогают экономить ресурсы гранта в процессе обучения.**  
