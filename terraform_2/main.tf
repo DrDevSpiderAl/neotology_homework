@@ -43,7 +43,7 @@ resource "yandex_vpc_network" "db_net" {
   name = var.vpc_name_db
 }
 resource "yandex_vpc_subnet" "db_sub" {
-  name = local.vm_db_ins_name
+  name = var.vpc_name_db
   zone = var.default_zone_db
   network_id = yandex_vpc_network.db_net.id
   v4_cidr_blocks = var.vm_db_cidr
@@ -51,7 +51,7 @@ resource "yandex_vpc_subnet" "db_sub" {
 
 
 resource "yandex_compute_instance" "platform_db" {
-  name = var.vm_db_computer_name 
+  name = local.vm_web_ins_name 
   platform_id = var.vm_db_platform_id
   zone = var.default_zone_db
   resources {
